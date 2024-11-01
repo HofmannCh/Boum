@@ -166,7 +166,7 @@ namespace Boum
             //Console.ReadKey();
             if (_options.TableView)
             {
-                Console.WriteLine(folder);
+                //Console.WriteLine(folder);
                 foreach (var line in PrintTableFolder(folder, fullPath))
                 {
                     lock (this)
